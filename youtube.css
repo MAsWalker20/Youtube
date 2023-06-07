@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.column {
+    width: 360px;
+    margin: 20px;
+}
+/*For image */
+.secondcolumnImage {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-bottom: 12px;
+}
+
+.thumbnailContainer {
+    height: 230px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.box {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.boxTitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.thumbnailContainer {
+    height: 230px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.op {
+    opacity: 0.5;
+}
+.thumbnail {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.secondColumnTitle {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.performance {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.startContainer {
+    margin-bottom: 20px;
+}
+.start {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+
+.creator {
+    margin-bottom: 12px;
+}
+
+.link {
+    color: blue;
+}
+
+.comment {
+    margin-top: 15px;
+}
+
+.fs {
+    font-size: 13px;
+}
+/* thirt column */
+.sub_count {
+    font-size: 34px;
+}
+
+.cg {
+    color: green;
+}
+
+.divider {
+   height: 1px;
+   background-color: lightgray;
+   margin: 25px 0px;
+}
+
+.summaryContainer {
+    margin-bottom: 10px;
+}
+
+.sum {
+    margin-bottom: 5px;
+}
+
+.sumStart {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.playlist {
+    display: flex;
+    padding: 5px 0px;
+    justify-content: space-between;
+}
+
+.overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ffs {
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.fa-angle-left {
+    margin-left: 20px;
+}
+
+.fa-arrow-up {
+   margin: 0px 2px;
+}
